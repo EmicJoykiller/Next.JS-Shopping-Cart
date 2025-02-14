@@ -1,7 +1,8 @@
+"use client"
 import { useState, useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import DessertCard from '../components/DessertCard';
-import Cart from '../components/Cart';
+import Navbar from './components/Navbar';
+import DessertCard from './components/DessertCard';
+import Cart from './components/Cart';
 
 const DESSERTS = [
   { name: 'Chocolate Cake', price: 5.99 },
